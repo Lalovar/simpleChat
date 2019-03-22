@@ -58,12 +58,15 @@ export default class App extends React.Component {
     // To avoid the Form to refresh the page.
     event.preventDefault();
     // Constant where we build the message object.
-    const message = {
-      nickname: this.state.nickname,
-      message: this.state.insideMessage
-    };
-    // Here we send the data to the server.
-    this.socket.emit('message', message); 
+    const message = this.state.insideMessage.trim();
+    if (message !== ""){
+      const messageObj = {
+        nickname: this.state.nickname,
+        message: message
+      };
+      // Here we send the data to the server.
+      this.socket.emit('message', messageObj); 
+    }
     // The current inside message gets erased once we send it.
     this.setState({insideMessage:""});
   }
