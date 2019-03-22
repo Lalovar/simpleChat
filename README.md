@@ -23,13 +23,13 @@ A simple chat made with Node JS, React JS, Socket-io, Express, Material-UI. (Ver
 
 ###### Usage
 ###### There's two folders, one for the server and one for the web client.
-        - simpleChat/server
+simpleChat/server
         
 ```
 npm install
 node server.js
 ```
-        - simpleChat/webClient
+simpleChat/webClient
         
 ```
 npm install
