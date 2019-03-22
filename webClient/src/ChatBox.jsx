@@ -29,7 +29,7 @@ export default class ChatBox extends React.Component {
                             /* Here we map the chatArray */
                             <div key={chatArray.indexOf(item)}>
                                 {
-                                    /* if the nickname is the same as the current session we align it to the right */
+                                    /* if the nickname is the same as the current session we align it to the right  */
                                     item.nickname === myself ? 
                                         <div style={{ textAlign: "right" }}><Chip color="primary" label={item.message} /></div>
                                         :

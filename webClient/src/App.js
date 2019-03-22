@@ -106,7 +106,7 @@ export default class App extends React.Component {
     const dialog =
       <Dialog 
         open={!this.state.isLogged}
-        onClose={()=>console.log("se cerró el modal se supone que ya esta logueado")}
+        onClose={()=>console.log("The modal got closed.")}
         aria-labelledby="form-dialog-title"
       >
         <DialogTitle id="form-dialog-title">Type your nickname</DialogTitle>
