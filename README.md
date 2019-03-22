@@ -1,12 +1,12 @@
 # simpleChat
 ###### Made by [lalovar](https://github.com/Lalovar)
-
+A simple chat made with Node JS, React JS, Socket-io, Express, Material-UI. (Very) Basic Authentication, just a nickname to identify who is sending messages.
 
 ##### The project structure (important files):
-###### server
+###### simpleChat/server
         - server.js
         - package.json
-###### webClient
+###### simpleChat/webClient
         - public
             - index.html
         - src
@@ -22,13 +22,15 @@
         - npm v6.9.0
 
 ###### Usage
-There's two folders, one for the server and one for the web client.
+###### There's two folders, one for the server and one for the web client.
         - simpleChat/server
+        
 ```
 npm install
 node server.js
 ```
         - simpleChat/webClient
+        
 ```
 npm install
 npm start
