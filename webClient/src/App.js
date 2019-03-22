@@ -164,6 +164,7 @@ export default class App extends React.Component {
         <Button variant="contained" color="secondary" onClick={() => this.deleteChats()}>
           Delete chats
         </Button>
+        <p><sup>Made with ♥ by <a href="https://github.com/Lalovar/simpleChat">lalovar</a> </sup></p>
       </div>
     );
   }
