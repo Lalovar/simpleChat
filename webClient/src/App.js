@@ -24,7 +24,7 @@ export default class App extends React.Component {
     };
   }
 
-  URL = "https://practice-lalovar.c9users.io";
+  URL = "yourURL.com";
   socket = socketIOClient(this.URL);
 
   componentDidMount(){
